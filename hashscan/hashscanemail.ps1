@@ -117,7 +117,7 @@ workflow HashScan ($discDirs) {
     $result = @()
     foreach -Parallel ($dir in $discDirs) {
         # Hash the entire directory. This is a major pain to do in PowerShell, so it calls a short Python script to use the hashlib library instead.
-        $hash = InlineScript{C:\Users\ccri\AppData\Local\Programs\Python\Python38-32\python.exe C:\Users\ccri\hash.py $Using:dir}
+        $hash = InlineScript{C:\Users\ryan\AppData\Local\Programs\Python\Python38-32\python.exe C:\Users\ryan\hash.py $Using:dir}
         $Workflow:result += "Hash for ${dir}: $hash`r`n"
 
         # Scan the directory with Windows Defender

@@ -1,2 +1,2 @@
 # assorted-scripts
-A collection of various bash, Powershell, and Python scripts that I've written to make my job easier. Some may have other applications, most probably don't. I'm keeping most of these here for my own storage but feel free to modify and reuse them if they can be of any help.
+A collection of various bash, Powershell, and Python scripts that I've written to make my job easier or just for fun. Some may have other applications, most probably don't. The ones that do might be spun off into their own projects someday, in which case I'll probably re-license the changes under the GPL. I'm keeping most of these here for my own storage but feel free to modify and reuse them if they can be of any help.

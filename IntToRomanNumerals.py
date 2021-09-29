@@ -13,9 +13,9 @@ def convert_to_roman(num, rom_num = ''):
     elif num >= 90:
         return convert_to_roman(num - 90, rom_num + 'XC')
     elif num >= 50:
-        return convert_to_roman(num - 50, rom_num + 'D')
+        return convert_to_roman(num - 50, rom_num + 'L')
     elif num >= 40:
-        return convert_to_roman(num - 40, rom_num + 'XD')
+        return convert_to_roman(num - 40, rom_num + 'XL')
     elif num >= 10:
         return convert_to_roman(num - 10, rom_num + 'X')
     elif num >= 9:
